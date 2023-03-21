@@ -9,5 +9,5 @@ RUN apt-get update -y && \
   rm -rf -- /var/lib/apt/lists/*
 
 # install python pip packages
-pip install --upgrade pip pip-audit
+RUN pip install --upgrade pip pip-audit
 
